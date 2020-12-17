@@ -1,18 +1,16 @@
 {
-  "name": "CementBot",
+  "name": "CementBotREVAMPED",
   "version": "1.0.0",
   "description": "a cementbot",
   "main": "CementBotRV.js",
   "scripts": {
     "start": "node CementBotRV.js"
   },
-   "author": "",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.1",
+    "discord.js": "^12.5.1"
     "eslint": "^7.15.0",
-    "got": "^11.8.1",
-    "snekfetch": "^4.0.4",
-    "superagent": "^6.1.0"
-  }
+  },
+  "devDependencies": {}
 }
