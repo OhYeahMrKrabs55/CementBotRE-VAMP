@@ -1,0 +1,9 @@
+{
+    "prefix": "c!",
+    "bot-age" : 1,
+    "words_array" : ["cement", "Cement", "Oil", "oil"],
+    "bot_info" : {
+    "name" : "Cement Bot",
+    "version" : 1.0
+    }
+}
