@@ -4,9 +4,8 @@
   "description": "Revamped cementbot",
   "main": "CementBotRV.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node CementBotRV.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
