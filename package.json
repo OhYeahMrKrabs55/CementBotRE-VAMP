@@ -1,12 +1,12 @@
 {
-  "name": "CementBotRV",
+  "name": "CementBot",
   "version": "1.0.0",
-  "description": "Revamped cementbot",
+  "description": "a cementbot",
   "main": "CementBotRV.js",
   "scripts": {
     "start": "node CementBotRV.js"
   },
-  "author": "",
+   "author": "",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.1",
