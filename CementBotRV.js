@@ -135,7 +135,7 @@ client.on('message', message => {
 	if(command2 === 'updatelog') {
 		const discordmodembed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
-			.setTitle('Added a new cmd c!russia')
+			.setTitle('Added a new staff excusive command c!gay')
 			.setDescription('Check back often to see if any new updates are in!')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp();
@@ -201,4 +201,14 @@ client.on('message', message => {
 			.setTimestamp();
 		message.channel.send(SovietEmbed);
 	}
+	if (command2 === 'gay' && message.member.roles.cache.has('786708264136998933')) {
+		const gayembed = new Discord.MessageEmbed()
+			.setColor('RANDOM')
+			.setTitle('YOUR A GAY LITTLE NIGGA AARENT YA')
+			.setDescription(`CHAD ${message.author} HAS SENT ${taggedUser2.username} TO GAYCAMP`)
+			.setFooter('ENJOY BEING GAY!')
+			.setImage('https://cdn.discordapp.com/attachments/602593912984567808/789663945404186645/AABBBBTROLL.jpg')
+			.setTimestamp();
+		message.channel.send(gayembed);
+	}else return;
 });
