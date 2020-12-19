@@ -173,6 +173,9 @@ client.on('message', message => {
 			.addFields(
 				{ name: 'c!russia', value: 'Send a person of your choice to russia!', inline: false },
 			)
+			.addFields(
+				{ name: 'c!gay', value: 'A staff exclusive command', inline: false },
+			)
 			.setTimestamp()
 			.setImage('https://cdn.discordapp.com/attachments/602593912984567808/788823339287576637/abotimage.jpg');
 		message.channel.send(discordmodembed);
@@ -198,4 +201,14 @@ client.on('message', message => {
 			.setTimestamp();
 		message.channel.send(SovietEmbed);
 	}
+	if (command2 === 'gay' && message.member.roles.cache.has('786708264136998933')) {
+		const gayembed = new Discord.MessageEmbed()
+			.setColor('RANDOM')
+			.setTitle('YOUR A GAY LITTLE NIGGA AARENT YA')
+			.setDescription(`CHAD ${message.author} HAS SENT ${taggedUser2.username} TO GAYCAMP`)
+			.setFooter('ENJOY BEING GAY!')
+			.setImage('https://cdn.discordapp.com/attachments/602593912984567808/789663945404186645/AABBBBTROLL.jpg')
+			.setTimestamp();
+		message.channel.send(gayembed);
+	}else message.channel.send(`${message.author} is not chad enough to use this command!`);
 });
