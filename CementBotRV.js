@@ -135,7 +135,7 @@ client.on('message', message => {
 	if(command2 === 'updatelog') {
 		const discordmodembed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
-			.setTitle('Added a new staff excusive command c!gay')
+			.setTitle('Added a new command c!retardhalloffame')
 			.setDescription('Check back often to see if any new updates are in!')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp();
@@ -176,6 +176,9 @@ client.on('message', message => {
 			.addFields(
 				{ name: 'c!gay', value: 'A staff exclusive command', inline: false },
 			)
+			.addFields(
+				{ name: 'c!retardhalloffame', value: 'A hall of fame to the retards who got banned', inline: false },
+			)
 			.setTimestamp()
 			.setImage('https://cdn.discordapp.com/attachments/602593912984567808/788823339287576637/abotimage.jpg');
 		message.channel.send(discordmodembed);
@@ -200,6 +203,19 @@ client.on('message', message => {
 			.setImage('https://cdn.discordapp.com/attachments/602593912984567808/789313920845611018/AABBRUSSIA.png')
 			.setTimestamp();
 		message.channel.send(SovietEmbed);
+	}
+	if(command2 === 'retardhalloffame') {
+		const retardembed = new Discord.MessageEmbed()
+			.setColor('RANDOM')
+			.setTitle('HERE IS ALL THE RETARDS THAT HAVE BEEN BANNED')
+			.setDescription(`${message.author} has requested the retard hall of fame`)
+			.setFooter('Enjoy!')
+			.setImage('https://cdn.discordapp.com/attachments/728388280353292319/789692275578896394/3ab7a8ee8ff6a3261ab7003191516404.png')
+			.addFields(
+				{ name: 'Eminet', value: 'Retard was mad he couldnt post gore', inline: false },
+			)
+			.setTimestamp();
+		message.channel.send(retardembed);
 	}
 	if (command2 === 'gay' && message.member.roles.cache.has('786708264136998933')) {
 		const gayembed = new Discord.MessageEmbed()
