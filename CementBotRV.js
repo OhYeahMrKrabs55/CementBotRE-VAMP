@@ -135,7 +135,7 @@ client.on('message', message => {
 	if(command2 === 'updatelog') {
 		const discordmodembed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
-			.setTitle('Added a new command c!retardhalloffame')
+			.setTitle('Added a new retard to retardhalloffame')
 			.setDescription('Check back often to see if any new updates are in!')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp();
@@ -210,10 +210,14 @@ client.on('message', message => {
 			.setTitle('HERE IS ALL THE RETARDS THAT HAVE BEEN BANNED')
 			.setDescription(`${message.author} has requested the retard hall of fame`)
 			.setFooter('Enjoy!')
-			.setImage('https://cdn.discordapp.com/attachments/728388280353292319/789692275578896394/3ab7a8ee8ff6a3261ab7003191516404.png')
 			.addFields(
 				{ name: 'Eminet', value: 'Retard was mad he couldnt post gore', inline: false },
 			)
+			.setImage('https://cdn.discordapp.com/attachments/728388280353292319/789692275578896394/3ab7a8ee8ff6a3261ab7003191516404.png')
+			.addFields(
+				{ name: 'GRIM', value: 'Retard only wanted gore and nazi memes', inline: false },
+			)
+			.setImage('https://cdn.discordapp.com/attachments/729195359104008192/790361745846698001/3fd3956d1a60417926e1f93101ddeb45.png')
 			.setTimestamp();
 		message.channel.send(retardembed);
 	}
