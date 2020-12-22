@@ -135,7 +135,7 @@ client.on('message', message => {
 	if(command2 === 'updatelog') {
 		const discordmodembed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
-			.setTitle('Fixed retardhalloffame and added more memes')
+			.setTitle('NEW COMMAND c!ohio')
 			.setDescription('Check back often to see if any new updates are in!')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp();
@@ -179,6 +179,9 @@ client.on('message', message => {
 			.addFields(
 				{ name: 'c!retardhalloffame', value: 'A hall of fame to the retards who got banned', inline: false },
 			)
+			.addFields(
+				{ name: 'c!ohio', value: 'send a nigga to hell- I mean Ohio.', inline: false },
+			)
 			.setTimestamp()
 			.setImage('https://cdn.discordapp.com/attachments/602593912984567808/788823339287576637/abotimage.jpg');
 		message.channel.send(discordmodembed);
@@ -219,6 +222,18 @@ client.on('message', message => {
 			)
 			.setTimestamp();
 		message.channel.send(retardembed);
+	}
+	if(command2 === 'ohio') {
+		const OhioEmbed = new Discord.MessageEmbed()
+			.setColor('RANDOM')
+			.setTitle(`${taggedUser2.username} has just been sent to ohio`)
+			.setDescription(`CHAD ${message.author} HAS SENT ${taggedUser2.username} TO THE HELL(OHIO)!`)
+			.setFooter(`ENYOY OHIO ${taggedUser2.username}`)
+			.setImage('https://cdn.discordapp.com/attachments/409067622689406979/790769809772118027/OHIO.png')
+			.setTimestamp();
+		message.channel.send(OhioEmbed);
+
+		return;
 	}
 	if (command2 === 'gay' && message.member.roles.cache.has('786708264136998933')) {
 		const gayembed = new Discord.MessageEmbed()
