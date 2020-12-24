@@ -59,8 +59,8 @@ const cement = ['https://cdn.discordapp.com/attachments/729195359104008192/79038
 const basspro = ['https://cdn.discordapp.com/attachments/729195359104008192/790388749279428608/image0.jpg', 'https://cdn.discordapp.com/attachments/778730061129842708/780273860846682112/image0.png', 'https://cdn.discordapp.com/attachments/778730061129842708/780273861135433728/image1.png', 'https://cdn.discordapp.com/attachments/778730061129842708/780273861378965514/image2.jpg', 'https://cdn.discordapp.com/attachments/778730061129842708/780273861639667712/image3.png', 'https://cdn.discordapp.com/attachments/505861794066202644/780274366146412615/image1.png', 'https://cdn.discordapp.com/attachments/505861794066202644/780274366436081684/image2.png', 'https://cdn.discordapp.com/attachments/505861794066202644/780274367056576542/image4.png', 'https://cdn.discordapp.com/attachments/505861794066202644/780274367304957972/image5.png', 'https://cdn.discordapp.com/attachments/505861794066202644/780276571978072074/image0.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780276572656762900/image1.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780276572862152704/image2.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780276573101883412/image3.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780276573345021972/image4.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780276573696950302/image5.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780276573983080458/image6.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780276574405525514/image7.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780276574728749086/image8.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780276574988664862/image9.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780277369533497344/image0.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780277369747275776/image1.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780277369931431947/image2.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780277370145079326/image3.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780277370413121586/image4.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780277370657308672/image5.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780277370879344670/image6.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780277371335868416/image8.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780277371517403156/image9.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780278010880065536/image0.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780278011089387540/image1.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780278011273543690/image2.jpg', 'https://cdn.discordapp.com/attachments/505861794066202644/780278011425587230/image3.jpg'];
 const troll = ['https://cdn.discordapp.com/attachments/729195359104008192/790388620484935740/image2.png', 'https://cdn.discordapp.com/attachments/729195359104008192/790388620309168218/image1.jpg', 'https://cdn.discordapp.com/attachments/729195359104008192/790388619772559370/image0.jpg', 'https://cdn.discordapp.com/attachments/728388280353292319/780565768018329630/EnIs410XEAAfnck.png', 'https://cdn.discordapp.com/attachments/728388280353292319/780565173613625364/EnhkXU9XcAIstA-.png', 'https://discordapp.com/channels/444346487002890260/728388280353292319/780577438572216341', 'https://cdn.discordapp.com/attachments/728388280353292319/780579971114205194/oil.png', 'https://cdn.discordapp.com/attachments/728388280353292319/780605453746176040/unknown.png', 'https://cdn.discordapp.com/attachments/313400507743862794/780463459182837820/a24kdhhrpdw41.png', 'https://cdn.discordapp.com/attachments/313400507743862794/780464042153476146/eg3ot512ox061.png', 'https://cdn.discordapp.com/attachments/313400507743862794/780496832882802708/Enf2DvTXEAAtPO3.png', 'https://cdn.discordapp.com/attachments/728388280353292319/780603866785382410/unknown.png', 'https://cdn.discordapp.com/attachments/728388280353292319/780604348782346260/unknown.png', 'https://cdn.discordapp.com/attachments/728388280353292319/780605629655416842/unknown.png', 'https://cdn.discordapp.com/attachments/728388280353292319/780606277776441374/unknown.png'];
 const femur = [''];
+const Buffies = ['https://cdn.discordapp.com/attachments/728388280353292319/791455299525410826/1601041537710.gif', 'https://cdn.discordapp.com/attachments/728388280353292319/791454922596024330/f02d8797d11905d436b399a0ff72baaf.jpg', 'https://cdn.discordapp.com/attachments/728388280353292319/791456652704350218/IMG_20201020_093339_476.jpg', 'https://cdn.discordapp.com/attachments/728388280353292319/791456788544225290/image0.png', 'https://cdn.discordapp.com/attachments/690732168493662250/791460633664684032/jn9srph28p661-1-1.png', 'https://cdn.discordapp.com/attachments/690732168493662250/791460635442675712/8i194urorsz51.jpg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460635762229298/ddb7al3-2a4101fd-bbfe-4f29-b235-33eb672d9f12.jpg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460636042330153/38a.jpg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460636403433492/770.jpg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460636818538506/089.jpg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460637246881842/957196_zakusiii_bea.jpg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460637531308053/bea_by_neoartcore_ddb9g5a-pre.jpg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460637934223420/7d2664fd7d37a54e3c82f099275d384e.jpg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460638358372382/1008607_mootium_bea-pokemon.jpg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460709477122078/a4b.jpeg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460709807423488/5oe8cchkt0q31.png', 'https://cdn.discordapp.com/attachments/690732168493662250/791460710147948554/Vo1p6A3.jpg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460710491488276/Mirukohttpthegreatpeanuttumblrcompost176180244754mirukosavedmylife_0147c4_6733534.jpg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460710831357962/012889e2c40d83ba34aa5bfe464e0048.jpg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460711057326110/van-lawrence-ching-vanlawrenceching-fanart-pokemon-bea-001-sat.jpg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460711653179462/cd6e416a156bb527a66ed7ccc9327ceb.jpg', 'https://cdn.discordapp.com/attachments/690732168493662250/791460711914012713/0ed83d88d7773de2f4a15ee9a8681604.jpg'];
 const discordmods = ['https://tenor.com/view/discord-moderator-kitten-gif-18177005', 'https://tenor.com/view/discord-mods-discord-mods-discord-mods-be-like-gif-18886289', 'https://cdn.discordapp.com/attachments/728388280353292319/780580423805698048/image0.jpg', 'https://cdn.discordapp.com/attachments/728388280353292319/780580572032270336/image0.jpg'];
-
 
 client.on('message', message => {
 	if(!message.content.startsWith(prefix) || message.author.bot) return;
@@ -102,6 +102,7 @@ client.on('message', message => {
 			.setImage(basspro [Math.floor(Math.random() * basspro .length)]);
 		message.channel.send(bassproembed);
 	}
+
 	if(command2 === 'troll') {
 		const trollembed = new Discord.MessageEmbed()
 			.setColor('#363833')
@@ -122,20 +123,20 @@ client.on('message', message => {
 			.setImage(femur [Math.floor(Math.random() * femur .length)]);
 		message.channel.send(FemurEmbed);
 	}
-	if(command2 === 'discordmods') {
-		const discordmodembed = new Discord.MessageEmbed()
+	if(command2 === 'buffwoman') {
+		const buffembed = new Discord.MessageEmbed()
 			.setColor('#363833')
-			.setTitle('Discord mods')
-			.setDescription('Bruh')
+			.setTitle('A buff woman')
+			.setDescription('Woah a buff woman :O')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp()
-			.setImage(discordmods [Math.floor(Math.random() * discordmods .length)]);
-		message.channel.send(discordmodembed);
+			.setImage(Buffies [Math.floor(Math.random() * Buffies .length)]);
+		message.channel.send(buffembed);
 	}
 	if(command2 === 'updatelog') {
 		const discordmodembed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
-			.setTitle('NEW COMMAND c!ohio')
+			.setTitle('NEW COMMAND c!buffwoman')
 			.setDescription('Check back often to see if any new updates are in!')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp();
@@ -181,6 +182,9 @@ client.on('message', message => {
 			)
 			.addFields(
 				{ name: 'c!ohio', value: 'send a nigga to hell- I mean Ohio.', inline: false },
+			)
+			.addFields(
+				{ name: 'c!buffwoman', value: 'Sends a picture of a buff girl.', inline: false },
 			)
 			.setTimestamp()
 			.setImage('https://cdn.discordapp.com/attachments/602593912984567808/788823339287576637/abotimage.jpg');
@@ -233,7 +237,17 @@ client.on('message', message => {
 			.setTimestamp();
 		message.channel.send(OhioEmbed);
 
-		return;
+
+	}
+	if(command2 === 'discordmods') {
+		const discordmodembed = new Discord.MessageEmbed()
+			.setColor('#363833')
+			.setTitle('Discord mods')
+			.setDescription('Bruh')
+			.setFooter(`Requested by ${message.author.username}`)
+			.setTimestamp()
+			.setImage(discordmods [Math.floor(Math.random() * discordmods .length)]);
+		message.channel.send(discordmodembed);
 	}
 	if (command2 === 'gay' && message.member.roles.cache.has('786708264136998933')) {
 		const gayembed = new Discord.MessageEmbed()
@@ -244,5 +258,5 @@ client.on('message', message => {
 			.setImage('https://cdn.discordapp.com/attachments/602593912984567808/789663945404186645/AABBBBTROLL.jpg')
 			.setTimestamp();
 		message.channel.send(gayembed);
-	}else return;
+	}
 });
