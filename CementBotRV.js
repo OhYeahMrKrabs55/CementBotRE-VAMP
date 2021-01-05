@@ -16,7 +16,7 @@ client.once('ready', () =>{
 	console.log(bot_info.version);
 	console.log(prefix);
 	console.log(`Logged in as ${client.user.tag}!`);
-	client.user.setActivity('Eating your cement c!');
+	client.user.setActivity('Eating your cement cmt!');
 });
 for(const file of commandFiles) {
 	const command = require(`./commands/${file}`);
@@ -150,41 +150,41 @@ client.on('message', message => {
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp()
 			.addFields(
-				{ name: 'c!cement', value: 'Drops a random cement meme', inline: false },
+				{ name: 'cmt!cement', value: 'Drops a random cement meme', inline: false },
 			)
 			.addFields(
-				{ name: 'c!ping', value: 'Pong this was a test command will add ms back later', inline: false },
+				{ name: 'cmt!ping', value: 'Pong this was a test command will add ms back later', inline: false },
 			).addFields(
-				{ name: 'c!basspro', value: 'Drops a random basspro meme', inline: false },
+				{ name: 'cmt!basspro', value: 'Drops a random basspro meme', inline: false },
 			).addFields(
-				{ name: 'c!troll', value: 'Drops a random trollface meme.', inline: false },
+				{ name: 'cmt!troll', value: 'Drops a random trollface meme.', inline: false },
 			).addFields(
-				{ name: 'c!femur', value: 'Drops a random femur breaker meme.', inline: false },
+				{ name: 'cmt!femur', value: 'Drops a random femur breaker meme.', inline: false },
 			).addFields(
-				{ name: 'c!discordmods', value: 'Drops a random discordmod meme.', inline: false },
+				{ name: 'cmt!discordmods', value: 'Drops a random discordmod meme.', inline: false },
 			).addFields(
-				{ name: 'c!oil', value: 'Cover your enemies in oil', inline: false },
+				{ name: 'cmt!oil', value: 'Cover your enemies in oil', inline: false },
 			)
 			.addFields(
-				{ name: 'c!updatelog', value: 'See if any new commands have been added', inline: false },
+				{ name: 'cmt!updatelog', value: 'See if any new commands have been added', inline: false },
 			)
 			.addFields(
-				{ name: 'c!brazil', value: 'Send a person of your choice to brazil!', inline: false },
+				{ name: 'cmt!brazil', value: 'Send a person of your choice to brazil!', inline: false },
 			)
 			.addFields(
-				{ name: 'c!russia', value: 'Send a person of your choice to russia!', inline: false },
+				{ name: 'cmt!russia', value: 'Send a person of your choice to russia!', inline: false },
 			)
 			.addFields(
-				{ name: 'c!gay', value: 'A staff exclusive command', inline: false },
+				{ name: 'cmt!gay', value: 'A staff exclusive command', inline: false },
 			)
 			.addFields(
-				{ name: 'c!retardhalloffame', value: 'A hall of fame to the retards who got banned', inline: false },
+				{ name: 'cmt!retardhalloffame', value: 'A hall of fame to the retards who got banned', inline: false },
 			)
 			.addFields(
-				{ name: 'c!ohio', value: 'send a nigga to hell- I mean Ohio.', inline: false },
+				{ name: 'cmt!ohio', value: 'send a nigga to hell- I mean Ohio.', inline: false },
 			)
 			.addFields(
-				{ name: 'c!buffwoman', value: 'Sends a picture of a buff girl.', inline: false },
+				{ name: 'cmt!buffwoman', value: 'Sends a picture of a buff girl.', inline: false },
 			)
 			.setTimestamp()
 			.setImage('https://cdn.discordapp.com/attachments/602593912984567808/788823339287576637/abotimage.jpg');
