@@ -16,7 +16,7 @@ client.once('ready', () =>{
 	console.log(bot_info.version);
 	console.log(prefix);
 	console.log(`Logged in as ${client.user.tag}!`);
-	client.user.setActivity('Eating your cement cmt!help');
+	client.user.setActivity('cmt!help');
 });
 for(const file of commandFiles) {
 	const command = require(`./commands/${file}`);
