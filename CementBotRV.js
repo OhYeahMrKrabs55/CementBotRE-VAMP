@@ -16,7 +16,7 @@ client.once('ready', () =>{
 	console.log(bot_info.version);
 	console.log(prefix);
 	console.log(`Logged in as ${client.user.tag}!`);
-	client.user.setActivity('Eating your cement cmt!');
+	client.user.setActivity('Eating your cement cmt!help');
 });
 for(const file of commandFiles) {
 	const command = require(`./commands/${file}`);
@@ -142,7 +142,7 @@ client.on('message', message => {
 			.setTimestamp();
 		message.channel.send(discordmodembed);
 	}
-	if(command2 === 'cmds') {
+	if(command2 === 'help') {
 		const discordmodembed = new Discord.MessageEmbed()
 			.setColor('#23a118')
 			.setTitle('List of commands')
