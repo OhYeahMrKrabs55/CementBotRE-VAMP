@@ -271,4 +271,6 @@ client.on('message', message => {
 			.setTimestamp();
 		message.channel.send(gayembed);
 	}
+	if (command2 === 'test')
+	message.channel.send('poggers');
 });
