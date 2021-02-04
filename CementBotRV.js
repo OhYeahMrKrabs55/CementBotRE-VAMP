@@ -239,7 +239,7 @@ client.on('message', message => {
 		message.channel.send(ragecomic [Math.floor(Math.random() * ragecomic .length)]);
 		message.channel.send(emoji('742884743565279292'));
 	}
-	if (command2 === 'gay' && message.member.roles.cache.has('786708264136998933')) {
+	if (command2 === 'gay' && message.member.roles.cache.has('803668829377003551')) {
 		const gayembed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
 			.setTitle('YOUR A GAY LITTLE NIGGA AARENT YA')
