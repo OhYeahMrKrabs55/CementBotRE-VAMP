@@ -30,23 +30,6 @@ client.on('message', message => {
 
 	if (!client.commands.has(commandName)) return;
 	const command = client.commands.get(commandName);
-
-	if(!args.length) {
-		const embed = new Discord.MessageEmbed()
-			.setColor('#363833')
-			.setTitle('PONG!')
-			.setDescription('The troll will cover you in oil')
-			.setFooter(`Requested by ${message.author.username}`)
-			.addField('Code', '00X9', true)
-			.addFields(
-				{ name: 'why would you ping me?', value: 'No seriously, why? dont do it again.', inline: false },
-			)
-			.setTimestamp()
-			.setImage('https://cdn.discordapp.com/attachments/602593912984567808/788823339287576637/abotimage.jpg')
-			.setThumbnail('https://cdn.discordapp.com/emojis/727993272517001316.png');
-
-		return message.channel.send(embed);
-	}
 	try {
 		command.execute(message, args);
 	}catch(error) {
@@ -141,7 +124,7 @@ client.on('message', message => {
 	if(command2 === 'updatelog') {
 		const discordmodembed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
-			.setTitle('ADDED A NEW COMMAND cmt!rage')
+			.setTitle('ADDED A NEW COMMAND cmt!ma')
 			.setDescription('Check back often to see if any new updates are in!')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp();
@@ -193,6 +176,9 @@ client.on('message', message => {
 			)
 			.addFields(
 				{ name: 'cmt!rage', value: 'ComE oUtsIde anD sEE tHe SUn', inline: false },
+			)
+			.addFields(
+				{ name: 'cmt!ma', value: 'posts a meme from the Meme Asylum reddit', inline: false },
 			)
 			.setTimestamp()
 			.setImage('https://cdn.discordapp.com/emojis/742884743565279292.png?v=1');
