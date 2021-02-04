@@ -133,7 +133,7 @@ client.on('message', message => {
 	if(command2 === 'updatelog') {
 		const discordmodembed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
-			.setTitle('Added a new cmd c!russia')
+			.setTitle('ADDED A NEW COMMAND cmt!ma')
 			.setDescription('Check back often to see if any new updates are in!')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp();
@@ -174,8 +174,14 @@ client.on('message', message => {
 			.addFields(
 				{ name: 'cmt!gay', value: 'Staff Command only staff can use it', inline: false },
 			)
+			.addFields(
+				{ name: 'cmt!rage', value: 'Come out and see the sun', inline: false },
+			)
+			.addFields(
+				{ name: 'cmt!ma', value: 'Posts a meme from the Meme Asylum reddit', inline: false },
+			)
 			.setTimestamp()
-			.setImage('https://cdn.discordapp.com/attachments/602593912984567808/788823339287576637/abotimage.jpg');
+			.setImage('https://cdn.discordapp.com/emojis/795399335801782302.png?v=1');
 		message.channel.send(discordmodembed);
 	}
 	const taggedUser2 = message.mentions.users.first();
