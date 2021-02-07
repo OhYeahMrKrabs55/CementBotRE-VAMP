@@ -15,7 +15,7 @@ module.exports = {
 
 			result.on('end', () => {
 				const response = JSON.parse(body);
-				const index = response.data.children[Math.floor(Math.random() * 99) + 1].data;
+				const index = response.data.children[Math.floor(Math.random() * 25) - 1].data;
 
 				if (index.post_hint !== 'image') {
 

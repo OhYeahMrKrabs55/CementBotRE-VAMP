@@ -185,6 +185,9 @@ client.on('message', message => {
 			.addFields(
 				{ name: 'cmt!ma', value: 'Posts a meme from the Meme Asylum reddit', inline: false },
 			)
+			.addFields(
+				{ name: 'cmt!buffwoman', value: 'Posts a very buff woman', inline: false },
+			)
 			.setTimestamp()
 			.setImage('https://cdn.discordapp.com/emojis/795399335801782302.png?v=1');
 		message.channel.send(discordmodembed);
