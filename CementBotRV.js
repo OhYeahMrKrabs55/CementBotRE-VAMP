@@ -80,15 +80,20 @@ client.on('message', message => {
 			.setImage(cement [Math.floor(Math.random() * cement .length)]);
 		message.channel.send(cementembed);
 	}
+	const responses2 = [':o a buffwoman', 'WOAH', 'This is amazing'];
 	if(command2 === 'buffwoman') {
-		const buffembed = new Discord.MessageEmbed()
+		const BuffEmbed = new Discord.MessageEmbed()
 			.setColor('#363833')
-			.setTitle('A buff woman')
-			.setDescription('Woah a buff woman :O')
+			.setTitle(responses2 [Math.floor(Math.random() * responses2 .length)])
+			.setDescription('A buff woman for you')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp()
 			.setImage(Buffies [Math.floor(Math.random() * Buffies .length)]);
-		message.channel.send(buffembed);
+		if (message.channel.nsfw) {
+			message.channel.send(BuffEmbed);
+		} else {
+			message.channel.send('Try this in an NSFW channel!');
+		}
 	}
 	if(command2 === 'basspro') {
 		const bassproembed = new Discord.MessageEmbed()
