@@ -88,7 +88,7 @@ client.on('message', message => {
 			.setDescription('A buff woman for you')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp()
-			.setImage(Buffies [Math.floor(Math.random() * Buffies .length)]);
+			.setImage(Buffies [Math.floor(Math.random() * Buffies .length) -1]);
 		if (message.channel.nsfw) {
 			message.channel.send(BuffEmbed);
 		} else {
