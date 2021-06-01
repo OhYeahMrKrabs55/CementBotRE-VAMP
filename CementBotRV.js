@@ -177,9 +177,6 @@ client.on('message', message => {
 				{ name: 'cmt!russia', value: 'Send a person of your choice to russia!', inline: false },
 			)
 			.addFields(
-				{ name: 'cmt!gay', value: 'Staff Command only staff can use it', inline: false },
-			)
-			.addFields(
 				{ name: 'cmt!rage', value: 'Come out and see the sun', inline: false },
 			)
 			.addFields(
@@ -247,14 +244,4 @@ client.on('message', message => {
 		message.channel.send(ragecomic [Math.floor(Math.random() * ragecomic .length)]);
 		message.channel.send(emoji('742884743565279292'));
 	}
-	if (command2 === 'gay' && message.member.roles.cache.has('803668829377003551')) {
-		const gayembed = new Discord.MessageEmbed()
-			.setColor('RANDOM')
-			.setTitle('YOUR A GAY LITTLE NIGGA AARENT YA')
-			.setDescription(`CHAD ${message.author} HAS SENT ${taggedUser2.username} TO GAYCAMP`)
-			.setFooter('ENJOY BEING GAY!')
-			.setImage('https://cdn.discordapp.com/attachments/602593912984567808/789663945404186645/AABBBBTROLL.jpg')
-			.setTimestamp();
-		message.channel.send(gayembed);
-	}else return;
 });
