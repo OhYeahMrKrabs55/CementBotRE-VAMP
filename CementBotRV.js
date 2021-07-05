@@ -184,6 +184,8 @@ client.on('message', message => {
 			)
 			.addFields(
 				{ name: 'cmt!buffwoman', value: 'Posts a very buff woman', inline: false },
+			).addFields(
+				{ name: 'cmt!beckers', value: 'Posts a beckers meme (best memes)', inline: false },
 			)
 			.setTimestamp()
 			.setImage('https://cdn.discordapp.com/emojis/795399335801782302.png?v=1');
