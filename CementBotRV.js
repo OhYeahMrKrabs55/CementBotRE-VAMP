@@ -249,4 +249,7 @@ client.on('message', message => {
 	if (command2 === 'beckers') {
 		message.channel.send(beckers [Math.floor(Math.random() * beckers .length)]);
 	}
+	if (command2 === 'test') {
+		message.channel.send('this is workin');
+	}
 });
