@@ -282,6 +282,8 @@ client.on('message', message => {
 			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878826626450874458/716WjLoehML._AC_SL1500_.jpg')
 			.setTimestamp();
 		message.channel.send(CaliEmbed);
+
+		return;
 	}
 	if(command2 === 'Florida') {
 		const FloridaEmbed = new Discord.MessageEmbed()
@@ -292,8 +294,10 @@ client.on('message', message => {
 			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878827168086491146/71mL1wdmA6L._AC_SL1500_.jpg')
 			.setTimestamp();
 		message.channel.send(FloridaEmbed);
+
+		return;
 	}
-	if(command2 === 'North Dakota') {
+	if(command2 === 'north dakota') {
 		const NorthDEmbed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
 			.setTitle(`${taggedUser2.username} has just been sent to North Dakota`)
@@ -302,8 +306,10 @@ client.on('message', message => {
 			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878827719390036058/flag-North-Dakota-National-Guard-change-state-1911.jpg')
 			.setTimestamp();
 		message.channel.send(NorthDEmbed);
+
+		return;
 	}
-	if(command2 === 'Kentucky') {
+	if(command2 === 'kentucky') {
 		const KentuckyEmbed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
 			.setTitle(`${taggedUser2.username} has just been sent to Kentucky`)
@@ -312,8 +318,10 @@ client.on('message', message => {
 			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878828332693749760/71L9BnOj9wL._AC_SL1500_.jpg')
 			.setTimestamp();
 		message.channel.send(KentuckyEmbed);
+
+		return;
 	}
-	if(command2 === 'Georgia') {
+	if(command2 === 'georgia') {
 		const GeorgiaEmbed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
 			.setTitle(`${taggedUser2.username} has just been sent to Georgia`)
@@ -322,8 +330,10 @@ client.on('message', message => {
 			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878828793249275964/flag-state-battle-Georgia-field-Georgias-History-2003.jpg')
 			.setTimestamp();
 		message.channel.send(GeorgiaEmbed);
+
+		return;
 	}
-	if(command2 === 'Idaho') {
+	if(command2 === 'idaho') {
 		const IdahoEmbed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
 			.setTitle(`${taggedUser2.username} has just been sent to Idaho`)
@@ -332,15 +342,19 @@ client.on('message', message => {
 			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878829169214107679/state-flag-Idaho-military-officer-description-fact-1957.jpg')
 			.setTimestamp();
 		message.channel.send(IdahoEmbed);
+
+		return;
 	}
-	if(command2 === 'West Virginia') {
+	if(command2 === 'west virginia') {
 		const WVEmbed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
 			.setTitle(`${taggedUser2.username} has just been sent to West Virginia`)
 			.setDescription(` ${message.author} HAS SENT ${taggedUser2.username} TO THE WONDERFUL STATE OF WEST VIRGINIA!`)
 			.setFooter('Enjoy the Pepperoni Rolls')
-			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878829169214107679/state-flag-Idaho-military-officer-description-fact-1957.jpg')
+			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878829393391280178/west-virginia-flag.jpg')
 			.setTimestamp();
 		message.channel.send(WVEmbed);
+
+		return;
 	}
 });
