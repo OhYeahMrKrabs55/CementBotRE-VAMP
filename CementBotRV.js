@@ -138,7 +138,7 @@ client.on('message', message => {
 	if(command2 === 'updatelog') {
 		const discordmodembed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
-			.setTitle('ADDED A NEW COMMAND cmt!ma')
+			.setTitle('ADDED A NEW 7 NEW STATES TO SEND SOMEONE TO CHECK cmt!help FOR DETAILS')
 			.setDescription('Check back often to see if any new updates are in!')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp();
@@ -186,6 +186,27 @@ client.on('message', message => {
 				{ name: 'cmt!buffwoman', value: 'Posts a very buff woman', inline: false },
 			).addFields(
 				{ name: 'cmt!beckers', value: 'Posts a beckers meme (best memes)', inline: false },
+			)
+			.addFields(
+				{ name: 'cmt!California', value: 'Sends someone to Cali', inline: false },
+			)
+			.addFields(
+				{ name: 'cmt!Florida', value: 'Sends someone to Florida', inline: false },
+			)
+			.addFields(
+				{ name: 'cmt!North Dakota', value: 'Sends someone to North Dakota', inline: false },
+			)
+			.addFields(
+				{ name: 'cmt!Kentucky', value: 'Sends someone to Kentucky', inline: false },
+			)
+			.addFields(
+				{ name: 'cmt!Georgia', value: 'Sends someone to Georgia', inline: false },
+			)
+			.addFields(
+				{ name: 'cmt!Idaho', value: 'Sends someone to Idaho', inline: false },
+			)
+			.addFields(
+				{ name: 'cmt!West Virginia', value: 'Sends someone to West Virginia', inline: false },
 			)
 			.setTimestamp()
 			.setImage('https://cdn.discordapp.com/emojis/795399335801782302.png?v=1');
@@ -251,5 +272,75 @@ client.on('message', message => {
 	}
 	if (command2 === 'test') {
 		message.channel.send('this is workin');
+	}
+	if(command2 === 'California') {
+		const CaliEmbed = new Discord.MessageEmbed()
+			.setColor('RANDOM')
+			.setTitle(`${taggedUser2.username} has just been sent to California`)
+			.setDescription(`CHAD ${message.author} HAS SENT ${taggedUser2.username} TO THE HELL(California)!`)
+			.setFooter('Enjoy the Burning')
+			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878826626450874458/716WjLoehML._AC_SL1500_.jpg')
+			.setTimestamp();
+		message.channel.send(CaliEmbed);
+	}
+	if(command2 === 'Florida') {
+		const FloridaEmbed = new Discord.MessageEmbed()
+			.setColor('RANDOM')
+			.setTitle(`${taggedUser2.username} has just been sent to Florida`)
+			.setDescription(`CHAD ${message.author} HAS SENT ${taggedUser2.username} TO THE Huricane(Florida)!`)
+			.setFooter('Enjoy the Rain and Gators')
+			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878827168086491146/71mL1wdmA6L._AC_SL1500_.jpg')
+			.setTimestamp();
+		message.channel.send(FloridaEmbed);
+	}
+	if(command2 === 'North Dakota') {
+		const NorthDEmbed = new Discord.MessageEmbed()
+			.setColor('RANDOM')
+			.setTitle(`${taggedUser2.username} has just been sent to North Dakota`)
+			.setDescription(`CHAD ${message.author} HAS SENT ${taggedUser2.username} TO THE Void(North Dakota)!`)
+			.setFooter('Enjoy the Nothingness')
+			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878827719390036058/flag-North-Dakota-National-Guard-change-state-1911.jpg')
+			.setTimestamp();
+		message.channel.send(NorthDEmbed);
+	}
+	if(command2 === 'Kentucky') {
+		const KentuckyEmbed = new Discord.MessageEmbed()
+			.setColor('RANDOM')
+			.setTitle(`${taggedUser2.username} has just been sent to Kentucky`)
+			.setDescription(` ${message.author} HAS SENT ${taggedUser2.username} TO THE WONDERFUL STATE OF KENTUCKY!`)
+			.setFooter('Enjoy the Fried Chicken')
+			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878828332693749760/71L9BnOj9wL._AC_SL1500_.jpg')
+			.setTimestamp();
+		message.channel.send(KentuckyEmbed);
+	}
+	if(command2 === 'Georgia') {
+		const GeorgiaEmbed = new Discord.MessageEmbed()
+			.setColor('RANDOM')
+			.setTitle(`${taggedUser2.username} has just been sent to Georgia`)
+			.setDescription(` ${message.author} HAS SENT ${taggedUser2.username} TO THE WONDERFUL STATE OF GEROGIA!`)
+			.setFooter('Enjoy the Peaches')
+			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878828793249275964/flag-state-battle-Georgia-field-Georgias-History-2003.jpg')
+			.setTimestamp();
+		message.channel.send(GeorgiaEmbed);
+	}
+	if(command2 === 'Idaho') {
+		const IdahoEmbed = new Discord.MessageEmbed()
+			.setColor('RANDOM')
+			.setTitle(`${taggedUser2.username} has just been sent to Idaho`)
+			.setDescription(` ${message.author} HAS SENT ${taggedUser2.username} TO THE WONDERFUL STATE OF IDAHO!`)
+			.setFooter('Enjoy the Potatoes')
+			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878829169214107679/state-flag-Idaho-military-officer-description-fact-1957.jpg')
+			.setTimestamp();
+		message.channel.send(IdahoEmbed);
+	}
+	if(command2 === 'West Virginia') {
+		const WVEmbed = new Discord.MessageEmbed()
+			.setColor('RANDOM')
+			.setTitle(`${taggedUser2.username} has just been sent to West Virginia`)
+			.setDescription(` ${message.author} HAS SENT ${taggedUser2.username} TO THE WONDERFUL STATE OF WEST VIRGINIA!`)
+			.setFooter('Enjoy the Pepperoni Rolls')
+			.setImage('https://cdn.discordapp.com/attachments/849674695309656074/878829169214107679/state-flag-Idaho-military-officer-description-fact-1957.jpg')
+			.setTimestamp();
+		message.channel.send(WVEmbed);
 	}
 });
