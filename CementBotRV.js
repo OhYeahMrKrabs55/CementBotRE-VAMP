@@ -297,7 +297,7 @@ client.on('message', message => {
 
 		return;
 	}
-	if(command2 === 'north dakota') {
+	if(command2 === 'northdakota') {
 		const NorthDEmbed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
 			.setTitle(`${taggedUser2.username} has just been sent to North Dakota`)
@@ -345,7 +345,7 @@ client.on('message', message => {
 
 		return;
 	}
-	if(command2 === 'west virginia') {
+	if(command2 === 'westvirginia') {
 		const WVEmbed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
 			.setTitle(`${taggedUser2.username} has just been sent to West Virginia`)
