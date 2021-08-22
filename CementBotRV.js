@@ -273,7 +273,7 @@ client.on('message', message => {
 	if (command2 === 'test') {
 		message.channel.send('this is workin');
 	}
-	if(command2 === 'California') {
+	if(command2 === 'california') {
 		const CaliEmbed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
 			.setTitle(`${taggedUser2.username} has just been sent to California`)
@@ -283,9 +283,8 @@ client.on('message', message => {
 			.setTimestamp();
 		message.channel.send(CaliEmbed);
 
-		return;
 	}
-	if(command2 === 'Florida') {
+	if(command2 === 'florida') {
 		const FloridaEmbed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
 			.setTitle(`${taggedUser2.username} has just been sent to Florida`)
@@ -295,7 +294,6 @@ client.on('message', message => {
 			.setTimestamp();
 		message.channel.send(FloridaEmbed);
 
-		return;
 	}
 	if(command2 === 'northdakota') {
 		const NorthDEmbed = new Discord.MessageEmbed()
