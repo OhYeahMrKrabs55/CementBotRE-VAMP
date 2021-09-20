@@ -69,8 +69,8 @@ client.on('message', message => {
 		message.channel.send(`Covers ${taggedUser.username} in oil`);
 		return;
 	}
-		if(command2 === 'booba') {
-		message.channel.send('You studying for this and that, why dont you study deez nuts instead ')
+		if(message.content === 'booba') {
+		message.reply('You studying for this and that, why dont you study deez nuts instead ')
 	}
 
 	if(command2 === 'cement') {
