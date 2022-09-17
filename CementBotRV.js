@@ -152,7 +152,7 @@ client.on('message', message => {
 	if(command2 === 'updatelog') {
 		const discordmodembed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
-			.setTitle('ADDED A NEW 7 NEW STATES TO SEND SOMEONE TO CHECK cmt!help FOR DETAILS')
+			.setTitle('ADDED A NEW COMMAND cmt!meme')
 			.setDescription('Check back often to see if any new updates are in!')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp();
@@ -221,6 +221,9 @@ client.on('message', message => {
 			)
 			.addFields(
 				{ name: 'cmt!West Virginia', value: 'Sends someone to West Virginia', inline: false },
+			)
+		        .addFields(
+				{ name: 'cmt!meme', value: 'touch grass', inline: false },
 			)
 			.setTimestamp()
 			.setImage('https://cdn.discordapp.com/emojis/795399335801782302.png?v=1');
