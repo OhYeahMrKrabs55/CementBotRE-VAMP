@@ -236,8 +236,8 @@ client.on('message', message => {
 		        .addFields(
 				{ name: 'cmt!meme', value: 'touch grass', inline: false },
 			)
-		        .addFields
-				{ name: 'cmt!oak', value: 'wise oak meme', inline: false },
+			.addFields(
+				{name: 'cmt!oak', value: 'wise oak meme', inline: false },
 			)
 			.setTimestamp()
 			.setImage('https://cdn.discordapp.com/emojis/795399335801782302.png?v=1');
