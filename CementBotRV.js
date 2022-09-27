@@ -88,7 +88,7 @@ client.on('message', message => {
 	if(command2 === 'oak') {
 		const oakembed = new Discord.MessageEmbed()
 			.setColor('#363833')
-			.setTitle('CementMeme')
+			.setTitle('The wise oak')
 			.setDescription('The wise oak looks down upon you')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp()
