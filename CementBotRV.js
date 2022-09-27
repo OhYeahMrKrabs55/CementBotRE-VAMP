@@ -163,8 +163,8 @@ client.on('message', message => {
 	if(command2 === 'updatelog') {
 		const discordmodembed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
-			.setTitle('ADDED A NEW COMMAND cmt!meme')
-			.setDescription('Check back often to see if any new updates are in!')
+			.setTitle('ADDED A NEW COMMAND cmt!oak')
+			.setDescription('THE WISE OAK LOOKS DOWN UPON YOU!')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp();
 		message.channel.send(discordmodembed);
