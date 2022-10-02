@@ -87,8 +87,8 @@ client.on('message', message => {
 		message.channel.send(cementembed);
 	}
 	if(command2 === 'cooking') {
-		cooking [Math.floor(Math.random() * cooking .length)];
-		message.channel.send(cooking);
+		const cooking2 = cooking [Math.floor(Math.random() * cooking .length)];
+		message.channel.send(cooking2);
 	}
 	if(command2 === 'oak') {
 		const oakembed = new Discord.MessageEmbed()
