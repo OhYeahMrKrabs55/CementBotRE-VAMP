@@ -97,7 +97,7 @@ client.on('message', message => {
 			.setDescription('The wise oak looks down upon you')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp()
-			.setImage(oak [Math.floor(Math.random() * oak .length)]);
+			.setImage(oak [Math.floor(Math.random() * oak .length)];
 		message.channel.send(oakembed);
 	}
 	const responses2 = [':o a buffwoman', 'WOAH', 'This is amazing'];
