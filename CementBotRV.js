@@ -168,8 +168,8 @@ client.on('message', message => {
 	if(command2 === 'updatelog') {
 		const discordmodembed = new Discord.MessageEmbed()
 			.setColor('RANDOM')
-			.setTitle('ADDED A NEW COMMAND cmt!oak')
-			.setDescription('THE WISE OAK LOOKS DOWN UPON YOU!')
+			.setTitle('ADDED A NEW COMMAND cmt!cooking')
+			.setDescription('ENJOY THE COOKING VIDS!')
 			.setFooter(`Requested by ${message.author.username}`)
 			.setTimestamp();
 		message.channel.send(discordmodembed);
@@ -243,6 +243,9 @@ client.on('message', message => {
 			)
 			.addFields(
 				{name: 'cmt!oak', value: 'wise oak meme', inline: false },
+			)
+			.addFields(
+				{name: 'cmt!cooking', value: 'Some nice cooking video', inline: false },
 			)
 			.setTimestamp()
 			.setImage('https://cdn.discordapp.com/emojis/795399335801782302.png?v=1');
