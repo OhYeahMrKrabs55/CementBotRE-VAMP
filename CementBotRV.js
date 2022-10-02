@@ -87,7 +87,7 @@ client.on('message', message => {
 		message.channel.send(cementembed);
 	}
 	if(command2 === 'cooking') {
-		cookijg [Math.floor(Math.random() * cooking .length)];
+		cooking [Math.floor(Math.random() * cooking .length)];
 		message.channel.send(cooking);
 	}
 	if(command2 === 'oak') {
